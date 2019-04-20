@@ -11,6 +11,10 @@ import Whare from './Whare'
 import Origin from './Origin'
 import Parents from './Parents'
 import Name from './Name'
+import CurrentHome from './CurrentHome'
+
+// import Results from './Results'
+import PrintButton from './PrintButton'
 
 export default class App extends React.Component {
   constructor (props) {
@@ -24,6 +28,7 @@ export default class App extends React.Component {
       Ancestory:'', 
       Whare:'',
       Origin:'',
+      CurrentHome:'',
       Mother:'',
       Father:'',
       Name:''
@@ -51,6 +56,8 @@ handleChange(event){
         <Origin handleChange={this.handleChange}/>
         <Parents handleChange={this.handleChange}/>
         <Name handleChange={this.handleChange}/>
+        <CurrentHome handleChange={this.handleChange}/>
+        <PrintButton />
      </div>
     )
   }

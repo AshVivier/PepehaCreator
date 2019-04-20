@@ -5,6 +5,8 @@ const Water = (props) => (
    
       <form>
         <input className="FormBox" type="text" name='Water' onChange={props.handleChange}/>
+        <h1>Awa</h1>
+        <p>River or body of water</p>
       </form>
 
   </div>

@@ -5,6 +5,8 @@ const Ancestory = (props) => (
    
       <form>
         <input className="FormBox" type="text" name='Ancestory' onChange={props.handleChange}/>
+        <h1>Tangata</h1>
+        <h3>Ancestory</h3>
       </form>
 
   </div>

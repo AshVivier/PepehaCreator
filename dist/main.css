@@ -1,25 +1,60 @@
+.Intro {
+  color: blanchedalmond;
+  background-image: url('/images/Cloud.png');
+  background-color: rgb(48, 51, 95);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+}
+
 .Mountain {
   background-image: url('/images/Mountain.png');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   text-align: center;
 }
 
 .Water {
   background-image: url('/images/River.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   text-align: center;
 }
 
 .Waka {
   background-image: url('./images/Waka.png');
+  -webkit-background-size: 600px;
+  -moz-background-size: 600px;
+  -o-background-size: 600px;
+  background-size: 600px;
+  background-repeat: no-repeat;
+  background-position-y: 150px;
   text-align: center;
 }
 
 .Whare{
   background-image: url('/images/Hut.png');
-  text-align: center
+  -webkit-background-size: 600px;
+  -moz-background-size: 600px;
+  -o-background-size: 600px;
+  background-size: 600px;
+  background-position-y: 100px;
+  background-repeat: no-repeat;
+  text-align: center;
 }
 
 .Iwi {
   background-image: url('/images/Fog.png');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   text-align: center;
 }
 /* 
@@ -28,33 +63,106 @@ background-image: url('')
 } */
 
 .Ancestory{
-  background-image: url('/images/digiSmoke.png')
+  background-image: url('/images/digiSmoke.png');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center
 }
 
 .Origin{
+  background-image: url('/images/GreenEarth.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 600px;
   text-align: center;
 }
 
 .Parents{
+  background-image: url('/images/Parents.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center
+}
+
+.CurrentHome{
+  background-image: url('./images/FloatingLand.jpg');
+  -webkit-background-size: 550px;
+  -moz-background-size: 550px;
+  -o-background-size: 550px;
+  background-size: 550px;
+  background-repeat: no-repeat;
+  background-position-y: 330px;
+  background-position-x: 300px;
   text-align: center;
 }
 
+.ParentsFormBoxes{
+  margin-top: 80px;
+  border: solid black;
+  width: 500px;
+  height: 130px;
+  font-family:'Amatic SC', cursive;
+  font-size: 70px;
+  text-align: center; 
+}
+
 .Name{
+  background-image: url('./images/RainbowSmoke.jpg');
+  -webkit-background-size: 500px;
+  -moz-background-size: 500px;
+  -o-background-size: 500px;
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-position-y: 150px;
+  background-position-x: 150px;
   text-align: center;
 }
 
 .PepehaPage {
+font-family: 'Amatic SC', cursive;
+font-size: 20px;
 width: 100%;
 height: 800px
 }
 
+.PrintButton{
+background-image: url('/images/Print.png');
+font-family: 'Amatic SC', cursive;
+font-size: 30px;
+width: 60px;
+height: 40px;
+}
+
 .FormBox {
+  border: solid black;
+  margin-top: 250px;
   width: 500px;
-  height: 150px;
-  margin-top: 50px;
-  font-size: 50px;
+  height: 130px;
+  font-size: 65px;
+  font-family:'Amatic SC', cursive;
   text-align: center; 
 }
+
+.CreateButton{
+    background-color: rgb(11, 110, 16); /* Green */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%
+}
+
+
+
 
 
 

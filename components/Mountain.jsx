@@ -5,6 +5,8 @@ const Mountain = (props) => (
    
       <form>
         <input className="FormBox" type="text" name='Mountain' onChange={props.handleChange}/>
+        <h1>Maunga</h1>
+        <h3>Mountain</h3>
       </form>
 
   </div>
