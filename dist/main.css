@@ -17,10 +17,10 @@
 
 .Mountain {
   background-image: url('/images/Mountain.png');
-  -webkit-background-size: 1000px;
-  -moz-background-size: 1000px;
-  -o-background-size: 1000px;
-  background-size: 1000px;
+  -webkit-background-size: 1200px;
+  -moz-background-size: 1200px;
+  -o-background-size: 1200px;
+  background-size: 1200px;
   background-position-y: 200px;
   background-repeat: no-repeat;
   text-align: center;
