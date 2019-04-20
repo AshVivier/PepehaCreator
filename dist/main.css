@@ -1,4 +1,8 @@
 .Intro {
+  font-family: 'Amatic SC', cursive;
+  font-size: 20px;
+  width: 100%;
+  height: 800px;
   color: blanchedalmond;
   background-image: url('/images/Cloud.png');
   background-color: rgb(48, 51, 95);
@@ -7,14 +11,18 @@
   -o-background-size: cover;
   background-size: cover;
   text-align: center;
+  opacity: 0.9
 }
+
 
 .Mountain {
   background-image: url('/images/Mountain.png');
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  -webkit-background-size: 1000px;
+  -moz-background-size: 1000px;
+  -o-background-size: 1000px;
+  background-size: 1000px;
+  background-position-y: 200px;
+  background-repeat: no-repeat;
   text-align: center;
 }
 
@@ -89,19 +97,16 @@ background-image: url('')
 }
 
 .CurrentHome{
-  background-image: url('./images/FloatingLand.jpg');
-  -webkit-background-size: 550px;
-  -moz-background-size: 550px;
-  -o-background-size: 550px;
-  background-size: 550px;
-  background-repeat: no-repeat;
-  background-position-y: 330px;
-  background-position-x: 300px;
+  background-image: url('./images/Nz.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   text-align: center;
 }
 
 .ParentsFormBoxes{
-  margin-top: 80px;
+  margin-top: 20px;
   border: solid black;
   width: 500px;
   height: 130px;
@@ -124,10 +129,17 @@ background-image: url('')
 
 .PepehaPage {
 font-family: 'Amatic SC', cursive;
-font-size: 20px;
+font-size: 30px;
 width: 100%;
 height: 800px
 }
+
+/* .PepehaPage2 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 25px;
+  width: 100%;
+  height: 1000px
+  } */
 
 .PrintButton{
 background-image: url('/images/Print.png');
@@ -138,19 +150,20 @@ height: 40px;
 }
 
 .FormBox {
+  background-color: rgb(237, 243, 210);
   border: solid black;
   margin-top: 250px;
   width: 500px;
   height: 130px;
-  font-size: 65px;
+  font-size: 80px;
   font-family:'Amatic SC', cursive;
   text-align: center; 
 }
 
 .CreateButton{
-    background-color: rgb(11, 110, 16); /* Green */
+    background-color: rgb(69, 70, 126); /* Green */
     border: none;
-    color: white;
+    color: rgb(15, 14, 14);
     padding: 20px;
     text-align: center;
     text-decoration: none;
@@ -158,11 +171,39 @@ height: 40px;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    border-radius: 50%
+    border-radius: 50%;
 }
 
 
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-2%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes shrink {
+  0% {
+    width: 95%;
+  }
+  100% {
+    width: 90%;
+  }
+}
 
 
 

@@ -5,7 +5,8 @@ const CurrentHome = (props) => (
   
       <form>
         <input className="FormBox" type="text" name='CurrentHome' onChange={props.handleChange}/>
-        <h1>CurrentHome</h1>
+        <h1>ahau e noho ana inaianei</h1>
+        <h3>(Now living)</h3>
           
       </form>
 

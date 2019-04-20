@@ -1,11 +1,11 @@
 import React from 'react'
-import Mountain from './Mountain';
+// import Mountain from './Mountain';
 
 const title = 'Introduction to Pepeha Creator';
-const OtherTitle = 'To come<p>skjhwdkjhqwk</p>'
+const OtherTitle = 'To come'
 
 const Intro = () =>(
-  <div className = 'Intro PepehaPage'>
+  <div className = 'Intro'>
   <h1>{title}</h1>
   <h2>{OtherTitle}</h2>
 

@@ -12,6 +12,7 @@ import Origin from './Origin'
 import Parents from './Parents'
 import Name from './Name'
 import CurrentHome from './CurrentHome'
+// import Hamburger from './Hamburger'
 
 // import Results from './Results'
 import PrintButton from './PrintButton'
@@ -57,6 +58,7 @@ handleChange(event){
         <Parents handleChange={this.handleChange}/>
         <Name handleChange={this.handleChange}/>
         <CurrentHome handleChange={this.handleChange}/>
+        {/* <Hamburger /> */}
         <PrintButton />
      </div>
     )
