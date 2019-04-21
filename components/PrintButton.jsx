@@ -15,7 +15,6 @@ class PrintThisComponent extends Component {
       <div>
 
         <button className= 'PrintButton' onClick={() => window.print()}>PRINT</button>
-        <p>Click above button opens print preview with these words on page</p>
 
       </div>
 
