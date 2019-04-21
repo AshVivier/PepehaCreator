@@ -66,7 +66,17 @@ handleChange(event){
         {/* <HamburgerMenu /> */}
         {/* <PrintButton /> */}
 
-        <Route path="/" component={Intro}/>
+        <ul>
+
+/* Link components are used for linking to other views */
+
+ <li><Link to="/Mountain">Mountain</Link></li>
+ <li><Link to="/">Intro</Link></li>
+
+
+</ul>
+ <Route exact={true} path="/" component={Intro}/>
+        {/* <Route path="/" component={Intro}/> */}
            <Route path="/Mountain" component={Mountain}/>
            <Route path="/Water" component={Water}/>
 
@@ -74,3 +84,39 @@ handleChange(event){
     )
   }
 }
+
+// class NameForm extends React.Component {
+//   constructor(props) {
+//     super(props);
+//     this.state = {value: ''};
+
+//     this.handleChange = this.handleChange.bind(this);
+//     this.handleSubmit = this.handleSubmit.bind(this);
+//   }
+
+//   handleChange(event) {
+//     this.setState({value: event.target.value});
+//   }
+
+//   handleSubmit(event) {
+//     alert('A name was submitted: ' + this.state.value);
+//     event.preventDefault();
+//   }
+
+//   render() {
+//     return (
+//       <form onSubmit={this.handleSubmit}>
+//         <label>
+//           Name:
+//           <input type="text" value={this.state.value} onChange={this.handleChange} />
+//         </label>
+//         <input type="submit" value="Submit" />
+//       </form>
+//     );
+//   }
+// }
+
+// ReactDOM.render(
+//   <NameForm />,
+//   document.getElementById('root')
+// );

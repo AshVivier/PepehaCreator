@@ -24,7 +24,7 @@ const Intro = () =>(
   <a href='./Mountain' ><button className='CreateButton'><strong>CREATE</strong></button></a>
 
  
-  <footer class="footer">&copy; Copyright 2019 HTML.am </footer>
+  <footer className="footer">&copy; Copyright 2019 HTML.am </footer>
 
  </div>
  
