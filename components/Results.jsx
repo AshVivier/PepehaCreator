@@ -1,46 +1,22 @@
 import React from 'react'
+import PrintButton from './PrintButton'
 
 const Results= () =>(
- <div>
-Ko {Mountain} te Maunga
-Ko {River} te Awa
-Ko {Waka} te Waka
-Ko {Iwi} te Iwi
-Ko {Ancestory} te Tangata
-Ko {Whare} te Whare
-Ko {Origin} toku Whakatipuranga 
-Ko {Mother}raua Ko {Father} Oku matua
-Ko {Name} toku ingoa
+ <div className= 'Results PepehaPage'>
+   <h1>This is where the results will be stored</h1>
+  
+ {/* Ko {Mountain} te Maunga
+ Ko {River} te Awa
+ Ko {Waka} te Waka
+ Ko {Iwi} te Iwi
+ Ko {Ancestory} te Tangata
+ Ko {Whare} te Whare
+ Ko {Origin} toku Whakatipuranga 
+ Ko {Mother}raua Ko {Father} Oku matua
+ Ko {Name} toku ingoa */}
+
+<PrintButton />
 </div>
 )
-
-// import React, {Component} from 'react'
-
-
-// class PrintThisComponent extends Component {
-
-//   componentDidMount() {
-
-//     console.log('PrintThisComponent mounted!')
-
-//   }
-
-//   render() {
-
-//     return (
-//       <div>
-
-//         <button onClick={() => window.print()}>PRINT</button>
-
-//         <p>Click above button opens print preview with these words on page</p>
-
-//       </div>
-
-//     )
-//   }
-// }
-
-// export default PrintThisComponent
-
 
 export default Results

@@ -1,5 +1,5 @@
-import React from 'react'
-
+import React, { Component } from 'react'
+// import React, from 'react';
 import Intro from './Intro'
 
 import Mountain from './Mountain'
@@ -12,10 +12,14 @@ import Origin from './Origin'
 import Parents from './Parents'
 import Name from './Name'
 import CurrentHome from './CurrentHome'
-// import Hamburger from './Hamburger'
+// import HamburgerMenu from './HamburgerMenu'
 
-// import Results from './Results'
-import PrintButton from './PrintButton'
+import Results from './Results'
+// import PrintButton from './PrintButton'
+
+
+import { Link, Route, Switch } from 'react-router-dom';
+
 
 export default class App extends React.Component {
   constructor (props) {
@@ -58,8 +62,14 @@ handleChange(event){
         <Parents handleChange={this.handleChange}/>
         <Name handleChange={this.handleChange}/>
         <CurrentHome handleChange={this.handleChange}/>
-        {/* <Hamburger /> */}
-        <PrintButton />
+        <Results />
+        {/* <HamburgerMenu /> */}
+        {/* <PrintButton /> */}
+
+        <Route path="/" component={Intro}/>
+           <Route path="/Mountain" component={Mountain}/>
+           <Route path="/Water" component={Water}/>
+
      </div>
     )
   }
