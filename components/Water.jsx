@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 const Water = (props) => (
   <div className= 'Water PepehaPage'>
@@ -8,8 +9,7 @@ const Water = (props) => (
         <h1>Awa</h1>
         <p>River or body of water</p>
       </form>
-
-  </div>
+      <Link to='./Waka' ><button className='CreateButton'><strong>Skip</strong></button></Link>  </div>
 )
 
 export default Water

@@ -10,7 +10,7 @@ const Mountain = (props) => (
         <h3>Mountain</h3>
       </form>
 
-      <Link to='./Water' ><button className='CreateButton'><strong>Next</strong></button></Link>
+      <Link to='./Water' ><button className='CreateButton'><strong>Skip</strong></button></Link>
 
   </div>
 )

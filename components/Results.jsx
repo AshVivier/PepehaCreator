@@ -12,10 +12,12 @@ import Mother from './Parents'
 import Father from './Parents'
 import Name from './Name'
 import CurrentHome from './CurrentHome'
+import {Link} from 'react-router-dom'
+
 
 const Results= () =>(
  <div className= 'Results PepehaPage'>
-   <h3>This is where the results will be stored</h3>
+   <h3>Your Pepeha</h3>
 
        <p> Ko {Mountain} te Maunga </p>
         <p>Ko {Water} te Awa</p>
@@ -28,7 +30,8 @@ const Results= () =>(
         <p>Ko {Mother}raua Ko {Father} Oku matua</p>
        <p> Ko {Name} toku ingoa </p>
   
-
+      
+       <Link to='./' ><button><strong>Home</strong></button></Link>
 
 
 <PrintButton />

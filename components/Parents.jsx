@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 const Parents = (props) => (
   <div className= 'Parents PepehaPage2' >
@@ -19,7 +20,7 @@ const Parents = (props) => (
         <h3>Father</h3>
         
       </form>
-
+      <Link to='./Name' ><button className='CreateButton'><strong>Skip</strong></button></Link>
   </div>
 )
 

@@ -84,6 +84,15 @@ handleChange(event){
           <div >
             <Route path='/Mountain' component={Mountain} />
             <Route path='/Water' component={Water}/>
+            <Route path='/Waka' component={Waka} />
+            <Route path='/Iwi' component={Iwi}/>
+            <Route path='/Ancestory' component={Ancestory} />
+            <Route path='/Whare' component={Whare}/>
+            <Route path='/Origin' component={Origin} />
+            <Route path='/CurrentHome' component={CurrentHome}/>
+            <Route path='/Parents' component={Parents} />
+            <Route path='/Name' component={Name}/>
+            <Route path='/Results' component={Results}/>
           </div>
         </div>
       </div>

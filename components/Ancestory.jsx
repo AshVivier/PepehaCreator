@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 const Ancestory = (props) => (
   <div className= 'Ancestory PepehaPage' >
@@ -8,7 +9,7 @@ const Ancestory = (props) => (
         <h1>Tangata</h1>
         <h3>Ancestory</h3>
       </form>
-
+      <Link to='./Whare'><button className='CreateButton'><strong>Skip</strong></button></Link>
   </div>
 )
 
