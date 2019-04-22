@@ -68,6 +68,7 @@ font-family: 'Amatic SC', cursive;
 }
 
 .Results {
+  color: rgb(240, 232, 232);
   background-color: rgb(92, 87, 87);
 background-image: url('/images/Fire.png');
   -webkit-background-size: cover;
@@ -171,6 +172,8 @@ height: 60px;
 
 .CreateButton{
     background-color:  #4CAF50; /* Green */
+    box-shadow: 4px 4px 4px #333;
+    text-shadow: 4px 4px 4px #333;
     border: none;
     color: rgb(15, 14, 14);
     padding: 45px;
