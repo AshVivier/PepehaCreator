@@ -1,11 +1,11 @@
 .Intro {
   font-family: 'Amatic SC', cursive;
-  font-size: 20px;
+  font-size: 25px;
   width: 100%;
   height: 800px;
-  color: rgb(10, 10, 10);
-  background-image: url('/images/Cloud.png');
-  background-color: rgb(48, 51, 95);
+  color: rgb(36, 32, 32);
+  background-image: url('/images/BlueClouds.jpg');
+  /* background-color: rgb(126, 103, 85); */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -63,11 +63,15 @@ font-family: 'Amatic SC', cursive;
 
 .Iwi {
   background-image: url('/images/Fog.png');
-
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   text-align: center;
 }
 
 .Results {
+  color: rgb(240, 232, 232);
   background-color: rgb(92, 87, 87);
 background-image: url('/images/Fire.png');
   -webkit-background-size: cover;
@@ -149,14 +153,14 @@ height: 800px
   height: 800px;
   }
 
-.PrintButton{
+/* .PrintButton{
 background-image: url('/images/Print.png');
 font-family: 'Amatic SC', cursive;
-float: left;
+float: inherit;
 font-size: 30px;
 width: 60px;
 height: 60px;
-}
+} */
 
 .FormBox {
   background-color: rgb(237, 243, 210);
@@ -171,6 +175,8 @@ height: 60px;
 
 .CreateButton{
     background-color:  #4CAF50; /* Green */
+    box-shadow: 4px 4px 4px #333;
+    text-shadow: 4px 4px 4px #333;
     border: none;
     color: rgb(15, 14, 14);
     padding: 45px;

@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 const Origin = (props) => (
   <div className= 'Origin PepehaPage' >
@@ -8,6 +9,7 @@ const Origin = (props) => (
         <h1>Whakatipuranga</h1>
         <h3>Origin</h3>
       </form>
+      <Link to='./CurrentHome' ><button className='CreateButton'><strong>Skip</strong></button></Link>
 
   </div>
 )

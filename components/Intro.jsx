@@ -1,6 +1,6 @@
 import React from 'react'
 import TopNavBar from './TopNavBar';
-
+import {Link} from 'react-router-dom'
 
 const title = 'Kia ora. Welcome to Pepeha Creator';
 const OtherTitle = 'The pepeha is the way to introduce yourself in Maori.'
@@ -21,7 +21,7 @@ const Intro = () =>(
   <h3>{Body2}</h3>
   <h3>{Body3}</h3>
 
-  <a href='./Mountain' ><button className='CreateButton'><strong>CREATE</strong></button></a>
+  <Link to='./Mountain' ><button className='CreateButton'><strong>CREATE</strong></button></Link>
 
  
   <footer className="footer">&copy; Copyright 2019 HTML.am </footer>
@@ -33,12 +33,3 @@ const Intro = () =>(
   
 export default Intro
 
-// import React from 'react'
-
-// const App = () => (
-//   <div className='container'>
-//     <img className='spinner' src='/images/paw.png' />
-//   </div>
-// )
-
-// export default App

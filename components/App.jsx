@@ -13,12 +13,10 @@ import Parents from './Parents'
 import Name from './Name'
 import CurrentHome from './CurrentHome'
 // import HamburgerMenu from './HamburgerMenu'
+import {HashRouter as Router, Route} from 'react-router-dom'
 
 import Results from './Results'
 // import PrintButton from './PrintButton'
-
-
-import { Link, Route, Switch } from 'react-router-dom';
 
 
 export default class App extends React.Component {
@@ -50,73 +48,54 @@ handleChange(event){
 
   render(){
     return (
+//       // <div>
+//         /* <Intro/>
+//         <Mountain handleChange={this.handleChange}/>
+//         <Water handleChange={this.handleChange}/>
+//         <Waka handleChange={this.handleChange}/>
+//         <Iwi handleChange={this.handleChange}/>
+//         <Ancestory handleChange={this.handleChange}/>
+//         <Whare handleChange={this.handleChange}/>
+//         <Origin handleChange={this.handleChange}/>
+//         <Parents handleChange={this.handleChange}/>
+//         <Name handleChange={this.handleChange}/>
+//         <CurrentHome handleChange={this.handleChange}/>
+//         <Results />
+//         {/* <HamburgerMenu /> */}
+//         {/* <PrintButton /> */} 
+// {/* 
+//         <ul>
+
+// /* Link components are used for linking to other views */
+
+//    {/* <li><Link to="/Mountain">Mountain</Link></li>
+//  <li><Link to="/">Intro</Link></li>
+
+
+
+
+<Router>
+ 
+
       <div>
-        <Intro/>
-        <Mountain handleChange={this.handleChange}/>
-        <Water handleChange={this.handleChange}/>
-        <Waka handleChange={this.handleChange}/>
-        <Iwi handleChange={this.handleChange}/>
-        <Ancestory handleChange={this.handleChange}/>
-        <Whare handleChange={this.handleChange}/>
-        <Origin handleChange={this.handleChange}/>
-        <Parents handleChange={this.handleChange}/>
-        <Name handleChange={this.handleChange}/>
-        <CurrentHome handleChange={this.handleChange}/>
-        <Results />
-        {/* <HamburgerMenu /> */}
-        {/* <PrintButton /> */}
 
-        <ul>
-
-/* Link components are used for linking to other views */
-
- <li><Link to="/Mountain">Mountain</Link></li>
- <li><Link to="/">Intro</Link></li>
-
-
-</ul>
- <Route exact={true} path="/" component={Intro}/>
-        {/* <Route path="/" component={Intro}/> */}
-           <Route path="/Mountain" component={Mountain}/>
-           <Route path="/Water" component={Water}/>
-
-     </div>
-    )
-  }
-}
-
-// class NameForm extends React.Component {
-//   constructor(props) {
-//     super(props);
-//     this.state = {value: ''};
-
-//     this.handleChange = this.handleChange.bind(this);
-//     this.handleSubmit = this.handleSubmit.bind(this);
-//   }
-
-//   handleChange(event) {
-//     this.setState({value: event.target.value});
-//   }
-
-//   handleSubmit(event) {
-//     alert('A name was submitted: ' + this.state.value);
-//     event.preventDefault();
-//   }
-
-//   render() {
-//     return (
-//       <form onSubmit={this.handleSubmit}>
-//         <label>
-//           Name:
-//           <input type="text" value={this.state.value} onChange={this.handleChange} />
-//         </label>
-//         <input type="submit" value="Submit" />
-//       </form>
-//     );
-//   }
-// }
-
-// ReactDOM.render(
-//   <NameForm />,
-//   document.getElementById('root')
-// );
+        <div>
+          <Route exact path='/' component={Intro} />
+          <div >
+            <Route path='/Mountain' component={Mountain} />
+            <Route path='/Water' component={Water}/>
+            <Route path='/Waka' component={Waka} />
+            <Route path='/Iwi' component={Iwi}/>
+            <Route path='/Ancestory' component={Ancestory} />
+            <Route path='/Whare' component={Whare}/>
+            <Route path='/Origin' component={Origin} />
+            <Route path='/CurrentHome' component={CurrentHome}/>
+            <Route path='/Parents' component={Parents} />
+            <Route path='/Name' component={Name}/>
+            <Route path='/Results' component={Results}/>
+          </div>
+        </div>
+      </div>
+      </Router>
+      )
+        }}

@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 const Name = (props) => (
   <div className= 'Name PepehaPage' >
@@ -9,7 +10,7 @@ const Name = (props) => (
           <h3>Name</h3>
         {/* go to the next page */}
       </form>
-
+      <Link to='./Results' ><button className='CreateButton'><strong>Skip</strong></button></Link>
   </div>
 )
 
